@@ -16,7 +16,7 @@ public class Figuras{
 
         
 
-        System.out.println("Seleccione la figura para calcular su area y perimetro 7u7");
+        System.out.println("Seleccione la figura para calcular su area y perimetro");
         System.out.println("1.- Circulo");
         System.out.println("2.- Rectangulo");
         System.out.println("3.- Cuadrado");
@@ -43,7 +43,7 @@ public class Figuras{
         }
     }
     public void Cir(){
-        System.out.println("Introduce el radio de nuestro circulo :3");
+        System.out.println("Introduce el radio de nuestro circulo");
         
         radio = entrada.nextInt();
         perimetro = (2*3.14)*radio;
@@ -53,11 +53,11 @@ public class Figuras{
         System.out.println("El Area es " + area);
     }
     public void Rec(){
-        System.out.println("Introduce la base del rectangulo :3");
+        System.out.println("Introduce la base del rectangulo");
         
         base = entrada.nextInt();
         
-        System.out.println("Introduce la altura del rectangulo :3");
+        System.out.println("Introduce la altura del rectangulo");
         
         altura = entrada.nextInt();
         perimetro = base*altura;
@@ -67,7 +67,7 @@ public class Figuras{
         System.out.println("El area es " + area);
     }
     public void Cuad(){
-        System.out.println("Introduce el valor de un lado del cuadrado :3");
+        System.out.println("Introduce el valor de un lado del cuadrado");
 
         base = entrada.nextInt();
         perimetro = base*4;
@@ -77,16 +77,17 @@ public class Figuras{
         System.out.println("El area es " + area);
     }
     public void Tri(){
-        System.out.println("Introduce la base del triangulo :3");
+        System.out.println("Introduce la base del triangulo");
         
         base = entrada.nextInt();
 
-        System.out.println("Introduce los dos lados que nos hacen falta del triangulo ;3");
+        System.out.println("Introduce los dos lados que nos hacen falta del triangulo");
         
         ladoa = entrada.nextInt();
+        
         ladob = entrada.nextInt();
 
-        System.out.println("Introduce la altura del triangulo :3");
+        System.out.println("Introduce la altura del triangulo");
         
         altura = entrada.nextInt();
         perimetro = base+ladoa+ladob;
